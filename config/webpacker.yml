@@ -39,6 +39,11 @@ development:
     hmr: false
     https: false
 
+production_local:
+  <<: *default
+  compile: true
+  cache_manifest: true
+
 test:
   <<: *default
   compile: true
